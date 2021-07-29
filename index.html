@@ -381,8 +381,46 @@
             <symbol id="icon-close"> </symbol>
         </svg>
     </button>
-    </div>
+
+
+    <p class="modal-form-tittle">Оставьте свои данные, мы вам перезвоним</p>
+    <form class="contact-form" name="form01" action="" method="POST" autocomplete="off">
+<lebel class="modal-lebel" for="name">Имя</lebel>
+<div class="modal-box">   
+<input class ="form-input" id="name" type "text"minlength="2" maxlength="25" autofocus placeholder="" required>
+<svg class="modal-icons" width="12px" height="12px">
+<use href="./img/sprite-icon.svg#icon-man"</use>
+</svg>
 </div>
+
+<lebel class="modal-lebel" for="phone">Телефон</lebel>
+<div class="modal-box">   
+<input class ="form-input tel" id="phone" type "tel" placeholder="" required title="000-000-00-00"> 
+<svg class="modal-icons" width="13px" height="13px">
+<use href="./img/sprite-icon.svg#icon-tel"</use>
+</svg>
+</div>
+
+<lebel class="modal-lebel" for="poshta">Почта</lebel>
+<div class="modal-box">   
+<input class ="form-input mal" id="poshta" type "mal" placeholder="" required>
+<svg class="modal-icons" width="15px" height="12px">
+<use href="./img/sprite-icon.svg#icon-pochta"</use>
+</svg>
+</div>
+
+<lebel class="modal-lebel" for="">Комментарий</lebel>
+<textarea class="modal-form-comment" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+<label class="modal-form-comment-flex" for="accept"><input class="checkbox-input visually-hidden" type="checkbox" name="accept" id="accept" required><span
+class="modal-check-box"></span>
+<span class="modal-check-accept">Соглашаюсь с рассылкой и принимаю <a class="modal-check-order" href="./pdf/test_dogovor.pdf" target="_blank" rel="noopener noreferrer">Условия
+договора</a></span></label>
+<button type="submit" class="form-send-button">Отправить</button>
+</form>
+</div>
+</div>
+
 <script src="./js/modal.js"></script>
+<script src="./js/imask.js"></script>
 </body>
 </html>
