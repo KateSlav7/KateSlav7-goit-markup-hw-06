@@ -1557,7 +1557,7 @@ button, input, optgroup, select, textarea {
 }
 .checkbox-input:checked + .modal-check-box {
   background-color: var(--accent-color);
-  background-image: url(../img/vector-14.svg);
+  background-image: url(../img/che-box.svg);
   border-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
@@ -1715,7 +1715,6 @@ fill: var(--footer-form-icon-color);
 }
 
 .foot-form-send-btn::after {
-  content: '';
   width: 24px;
   height: 24px;
   margin-left: 10px;
